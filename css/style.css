@@ -1,0 +1,160 @@
+/* General Body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('../images/library-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #2c3e50;
+    
+}
+
+/* Header */
+h1, h2 {
+   
+
+    /* H1 Heading Style */
+
+    text-align: center;
+    color: #fff;              /* White text */
+   background-color: #7a8c9e; /* Blue background (Bootstrap blue shade) */
+    padding: 15px 20px;       /* Space around text */
+    border-radius: 6px;       /* Rounded corners */
+    width: fit-content;       /* Wrap background to text */
+    margin: 20px auto; 
+    background-color: rgba(0, 123, 255, 0.75);
+
+      /* Center horizontally */
+}
+
+/* Navigation Bar */
+nav {
+    text-align: center;
+     background-color: rgba(52, 73, 94, 0.90);
+    padding: 15px 0;
+}
+
+nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+/* Forms */
+form {
+
+    background-color: rgba(255, 255, 255,0.70); /* faint white background */
+    max-width: 450px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.8);
+}
+
+form input, form select, form button {
+    width: 100%;
+    padding: 12px 15px;
+    
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+form button {
+    display: block;
+    margin: 15px auto;
+    width: 100%;
+    max-width: 400px;   /* matches text field width */
+    padding: 12px;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background-color: #27ae60;
+}
+
+/* Tables */
+table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+table th, table td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+table th {
+    background-color: #e9eaeb;
+    color: #f47979;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #d1f0d1;
+}
+
+/* Messages */
+p {
+    text-align: center;
+    font-weight: bold;
+    color: #27ae44;
+}
+p.error {
+    color: #e74c3c;
+}
+
+
+/* Make all form fields the same width */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="number"],
+form select {
+    display: block;
+    margin: 10px auto;
+    width: 100%;           /* Full width inside form */
+    max-width: 400px;      /* Same as button */
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+/* Make all form fields the same width */
+
+
+
+
+
